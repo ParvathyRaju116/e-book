@@ -1,0 +1,97 @@
+  @import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Lobster&family=Mrs+Saint+Delafield&family=Pacifico&family=Podkova:wght@600&family=Satisfy&family=Sofia&display=swap');
+body{
+    /* background-color: rgb(227, 241, 166); */
+    background-image: linear-gradient(to right, rgb(235, 204, 175) , rgb(240, 203, 147));
+}
+.navbar{
+    background-color: rgba(255, 255, 255, 0.183);
+}
+.button{
+    background-color: transparent;
+    text-decoration: none;
+    border: 1px black solid;
+    margin: 5px;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 1px 1px 4px 0px #000000 inset;
+
+}
+.button:hover{
+  border: 1px black solid;
+  transform: scale(1.1);
+  transition: ease-in-out;
+}
+img{
+    filter: brightness(25%);
+}
+.head1{
+    font-family: 'Pacifico', cursive;
+    font-size: 55px;
+}
+.footerDiv{
+  background-color: rgba(255, 255, 255, 0.218);
+
+}
+.input1,textarea{
+  background-color: transparent;
+  border: 0px;
+  border-bottom: 2px solid black;
+  width: 50%;
+}
+.divA{
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  padding:50px ;
+}
+.input2{
+  /* border: 1px solid black; */
+  border: 0px;
+  border-bottom: 1px solid;
+  border-left: 1px solid ;
+  border-radius: 5px;
+  text-align: center;
+  background-color: transparent;
+  margin: 15px;
+  height: 40px;
+}
+.input2:hover{
+  transform: scale(1.01);
+}
+.head2{
+  font-family: 'Croissant One', cursive;
+  font-size: 80px;
+  color: rgb(202, 202, 202);
+}
+.head3{
+  font-family: 'Podkova', serif;
+}
+
+.btn1{
+    margin-left: 500px;
+
+  }
+  .btn2{
+    margin-left: 40px;
+  }
+.carousel-inner img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .head2 {
+      font-size: 18px;
+  }
+  .navbar-collapse.text-end {
+    text-align: center;
+}
+
+.navbar-collapse.text-end button {
+    margin-left: 0;
+    margin-top: 10px;
+}
+.btn1,.btn2{
+  margin-left: 0px;
+}
+}
